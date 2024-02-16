@@ -29,6 +29,13 @@ public class FunctionAproximation {
     }
     
     public void compute() {
+        dx = (xEnd - xIni) / n;
+        area = 0.0;
+        for(int i = 0; i <= n; i++){
+            x[i] = xIni + 1*dx;
+            fx[i] =x[i] * x[i];
+            area = area + fx[i] * dx;
+        }
         
     }
 
