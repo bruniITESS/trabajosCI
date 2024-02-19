@@ -38,9 +38,9 @@ public class Serie {
     }
     public void print(){
         System.out.println("index  |  i  |   f");
-        for (int index = 0; index < n; index++) {
+        for (int index = 0; index < n; index++) 
             System.out.println(index + "  |  " + i[index] + "  |  " + f[index]);
-        }
+        
         System.out.println("suma: " + suma);
     }
 }
